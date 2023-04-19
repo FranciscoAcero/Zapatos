@@ -13,10 +13,16 @@ Entramos a la carpeta que acabamos de clonar e instalamos las dependencias neces
 
 # 2
 
-	yarn
-	npm install
+	opcion 1 -> 
+			yarn
+	
+	opcion 2 -> 
+			npm install
 
 # 3
 
-	npm dev
-	yarn dev
+	opcion 1 -> 
+			yarn dev
+	
+	opcion 2 ->
+			npm run dev
