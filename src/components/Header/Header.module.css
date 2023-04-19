@@ -1,0 +1,319 @@
+/* Establece los estilos para la barra superior */
+.topBanner {
+	background-color: #7a4a58; /* Cambia el color de fondo */
+	color: #fff; /* Cambia el color de la letra */
+	text-align: center; /* Centra el texto */
+	padding: 0.45rem; /* Ajusta el padding */
+	font-size: 0.9rem; /* Ajusta el tamaño de la letra */
+	font-weight: 600; /* Aumenta el grosor de la letra */
+}
+
+/* Establece los estilos para la segunda fila */
+.secondRow {
+	background-color: #ccc; /* Cambia el color de fondo */
+	padding: 0.25rem 2.2rem; /* Ajusta el padding */
+	font-size: 0.1rem; /* Ajusta el tamaño de la letra */
+	display: flex; /* Agrega la propiedad display flex */
+	justify-content: space-between; /* Separa los elementos en el espacio disponible */
+}
+
+/* Establece los estilos para el menú superior */
+.topMenu {
+	display: flex;
+	justify-content: flex-end;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	color: #565659;
+	font-size: 0.5rem;
+	font-weight: 700;
+	align-items: center;
+	flex: 1; /* Añadir flex: 1 para que los botones se expandan y se alineen a la derecha */
+}
+
+/* Establece los estilos para los elementos del menú superior */
+.topMenu li {
+	margin-left: 1rem; /* Agrega un margen a la izquierda */
+	cursor: pointer; /* Cambia el cursor a una mano */
+}
+
+.topMenu li:hover {
+	color: #9c4b64;
+  }
+
+/* Establece los estilos para el encabezado */
+.header {
+	background-color: #fff; /* Cambia el color de fondo */
+	color: #565659; /* Cambia el color de la letra */
+	padding: 0.6rem 2.2rem 0.2rem 2.2rem; /* Ajusta el padding */
+	display: flex; /* Agrega la propiedad display flex */
+	justify-content: space-between; /* Separa los elementos en el espacio disponible */
+	flex-wrap: wrap; /* Permite que los elementos del encabezado se ajusten a una nueva línea */
+	border-bottom: 0.5px solid #ccc; /* Cambia el color de la línea y la hace más delgada */
+	align-items: center; /* Centra verticalmente los elementos */
+}
+
+/* Establece los estilos para la columna izquierda */
+.leftColumn {
+	display: flex; /* Agrega la propiedad display flex */
+	flex-direction: column; /* Cambia a columna */
+	align-items: flex-start; /* Alinea los elementos a la izquierda */
+}
+
+/* Establece los estilos para el logotipo */
+.logo {
+	display: flex; /* Agrega la propiedad display flex */
+	align-items: center; /* Centra verticalmente los elementos */
+	margin-bottom: 1rem; /* Agrega un espacio debajo del logotipo */
+}
+
+.logo img {
+	height: 55px; /* Reducir el tamaño del perro en un 40% */
+	width: auto; /* Permitir que el ancho se ajuste automáticamente */
+}
+
+.logo-text {
+	font-size: 1.4rem; /* Aumentar el tamaño de la letra */
+	font-weight: 750; /* Aumentar el grosor de la letra */
+	margin-left: 0.8rem; /* Agregar un margen a la izquierda */
+	margin-top: 1rem; /* Agregar un margen superior */
+	white-space: nowrap; /* Evitar que el texto se divida en dos líneas */
+	position: relative; /* Agregar posición relativa para alinear el subtexto */
+}
+
+.registered {
+	vertical-align: super; /* Alinear el texto superiormente */
+	font-size: 9px; /* Reducir el tamaño de la letra */
+}
+
+/* Establece los estilos para el menú principal */
+.menu {
+	text-align: right;
+	display: flex;
+	align-items: center;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	font-size: 0.6rem;
+	flex-grow: 1;
+	
+}
+
+/* Establece los estilos para los elementos del menú principal */
+.menu li {
+	font-family: "Montserrat"; /* Establece la fuente */
+	color: #777777; /* Establece el color de la fuente */
+	margin-right: 1.7rem; /* Establece un margen a la derecha */
+	font-weight: 600; /* Establece el grosor de la fuente */
+	letter-spacing: 0.08em; /* Aumenta el espacio entre las letras */
+	cursor: pointer; /* Cambia el cursor a una mano */
+}
+
+/* Establece los estilos al pasar el mouse por los elementos del menú principal */
+.menu li:hover {
+	color: #9c4b64; /* Cambia el color de la fuente */
+}
+
+/* Establece los estilos al hacer clic en los elementos del menú principal */
+.menu li:active {
+	color: #9c4b64; /* Cambia el color de la fuente */
+}
+
+.user-menu .menu-item {
+	display: flex;
+	align-items: center;
+	margin-right: 0;
+	margin-left: 0;
+	margin-top: 0;
+	justify-content: flex-end;
+}
+
+/* Establece los estilos para la columna derecha */
+.rightColumn {
+	display: flex;
+	flex-direction: column;
+	align-items: right;
+	flex-basis: 50%;
+	text-align: right;
+	justify-content: space-between;
+	
+}
+
+/* Establece los estilos para el menú de usuario */
+.user-menu {
+	margin-left: auto;
+	display: flex;
+	align-items: center;
+	margin-right: 0;
+	margin-bottom: 0;
+	padding-bottom: 2;
+	list-style: none;
+}
+
+.searchBarContainer {
+	/* Agregar un contenedor para la barra de búsqueda */
+	position: relative; /* Agregar posición relativa */
+}
+.searchIcon {
+	font-size: 1rem; /* Ajusta el tamaño del ícono */
+	vertical-align: middle; /* Centra verticalmente el ícono */
+}
+.searchButton {
+	position: absolute; /* Agregar posición absoluta */
+	right: 0; /* Agregar un margen a la derecha */
+	top: 0; /* Agregar un margen superior */
+	bottom: 0.15rem; /* Agregar un margen inferior */
+	display: flex; /* Agrega la propiedad display flex */
+	align-items: center; /* Centra verticalmente los elementos */
+	background-color: transparent; /* Cambiar el color de fondo */
+	border: none; /* Eliminar el borde */
+	cursor: pointer; /* Cambiar el cursor a una mano */
+	padding: 0rem 0.5rem; /* Agregar un padding */
+}
+
+.searchBar:focus {
+	border: 1px solid #9c4b64;
+	color: #333;
+	outline: none;
+}
+
+.searchButton:hover {
+	color: #9c4b64; /* Cambiar el color de la letra al pasar el mouse */
+}
+.searchBar {
+	border: 1px solid #ccc; /* Cambiar el color de la línea y hacerla más delgada */
+	border-radius: 1px; /* Cambiar el radio de la esquina */
+	margin-bottom: 0.25rem; /* Agregar un margen inferior */
+	background: #fff no-repeat 3px center; /* Agregar un ícono de búsqueda */
+	padding: 0.45rem 2rem 0.4rem 0.6rem; /* Agregar un padding */
+	line-height: 0.5; /* Ajustar el tamaño de la línea */
+	background-size: 16px; /* Ajustar el tamaño del ícono */
+	width: 10.5rem; /* Ajustar el ancho */
+	max-width: 30rem; /* Ajustar el ancho máximo */
+	color: #20333a; /* Cambiar el color de la letra */
+	font-size: 0.55rem; /* Ajustar el tamaño de la letra */
+}
+
+/* Establece los estilos para el texto en rojo */
+.redText {
+	color: #9b5166;
+	margin-top: 0.1rem;
+	font-size: 0.72rem;
+	font-weight: normal;
+}
+/* Establece placeholder texto en color negro */
+.searchBar::placeholder {
+    color: #686868;
+}
+/* Media queries para pantallas más pequeñas */
+@media (max-width: 767px) {
+	.header {
+		padding: 0.85rem 1rem;
+		flex-direction: column;
+	}
+
+	.leftColumn,
+	.rightColumn {
+		flex-basis: 100%;
+		padding: 0;
+	}
+
+	.logo {
+		margin-bottom: 0.5rem;
+	}
+
+	.menu {
+		justify-content: space-between;
+	}
+
+	.menu li {
+		margin-right: 1rem;
+	}
+
+	.rightColumn .menu {
+		margin-bottom: 0.5rem;
+	}
+
+	.searchBar {
+		max-width: 100%;
+	}
+}
+
+/* Media queries para pantallas medianas */
+@media (min-width: 768px) and (max-width: 1199px) {
+	.header {
+		flex-wrap: nowrap;
+	}
+
+	.leftColumn {
+		padding-right: 1rem;
+	}
+
+	.rightColumn {
+		padding-left: 1rem;
+	}
+
+	.logo {
+		margin-bottom: 0;
+	}
+
+	.menu {
+		flex-direction: row;
+		margin-top: 0.6rem;
+		align-items: baseline;
+		height: 100%;
+	}
+}
+
+/* Media queries para pantallas extra grandes */
+@media (min-width: 1600px) {
+	.topBanner {
+		font-size: 1.1rem; /* Aumenta el tamaño de la letra */
+		padding: 0.8rem; /* Aumenta el padding */
+	}
+
+	.secondRow {
+		padding: 0.5rem 3rem; /* Aumenta el padding */
+		font-size: 0.9rem; /* Aumenta el tamaño de la letra */
+	}
+
+	.topMenu {
+		font-size: 0.9rem; /* Aumenta el tamaño de la letra */
+	}
+
+	.topMenu li {
+		margin-left: 1.5rem; /* Aumenta el margen a la izquierda */
+	}
+
+	.header {
+		padding: 2rem 4rem; /* Aumenta el padding */
+	}
+
+	.logo img {
+		height: 75px; /* Aumenta el tamaño de la imagen del logotipo */
+	}
+
+	.logo-text {
+		font-size: 1.8rem; /* Aumenta el tamaño de la letra */
+		margin-left: 1.2rem; /* Aumenta el margen a la izquierda */
+	}
+
+	.menu li {
+		font-size: 1.4rem; /* Aumenta el tamaño de la letra */
+		margin-right: 2rem; /* Aumenta el margen a la derecha */
+	}
+
+	.searchBar {
+		font-size: 1.4rem; /* Aumenta el tamaño de la letra */
+		padding: 0.6rem 3rem 0.5rem 01rem; /* Aumenta el padding */
+		background-size: 20px; /* Aumenta el tamaño del ícono */
+		width: 17.5rem; /* Aumenta el ancho */
+	}
+	.redText {
+		color: #9b5166;
+		margin-top: 0.1rem;
+		font-size: 1.2rem;
+		font-weight: normal;
+	}
+
+}
