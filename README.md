@@ -2,7 +2,7 @@
 Prueba Redux
 
 
-1
+# 1
 
 Necesitamos clonar el proyecto añadiendo la siguiente linea de comando en una terminal
 
@@ -11,12 +11,12 @@ Necesitamos clonar el proyecto añadiendo la siguiente linea de comando en una t
 Entramos a la carpeta que acabamos de clonar e instalamos las dependencias necesarias
 
 
-2
+# 2
 
 	yarn
 	npm install
 
-3
+# 3
 
 	npm dev
 	yarn dev
